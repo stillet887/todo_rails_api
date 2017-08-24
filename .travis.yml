@@ -3,3 +3,6 @@ rvm:
  - 2.2
  - jruby
  - rbx-2
+before_script:
+ - gem install bundler
+ - bundler i

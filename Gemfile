@@ -28,6 +28,9 @@ gem 'rack-cors'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'minitest-rails'
+  gem 'minitest-capybara'
+  gem 'capybara'
 end
 
 group :development do
