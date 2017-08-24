@@ -6,3 +6,4 @@ rvm:
 before_script:
  - gem install bundler
  - bundler i
+ - createdb rails_api_test
